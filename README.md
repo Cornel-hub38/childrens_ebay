@@ -1,0 +1,1 @@
+# This app is an ebay clone for used children's clothing
