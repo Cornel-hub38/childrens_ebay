@@ -31,6 +31,7 @@
     display: flex;
     border: 5px solid #eeffcc;
     height: 3rem;
+    /*margin: 0.2%;*/
 
 }
 
@@ -66,10 +67,33 @@
     margin-right: 1rem;
 }
 
-.aside-item {
+.aside-items-cat {
 
-    text-decoration: none;
+    text-decoration-line: none;
 
+
+}
+
+ul > li > .aside-items-all {
+    display: inline-block;
+    margin-bottom: 0.2rem;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+.search-function {
+    display: -webkit-flex;
+    display: flex;
+    border: 2px solid #ee22cc;
+    height: 2rem;
+    margin-bottom: 0.5%;
+    /*margin: 1rem auto;*/
+}
+
+.search-button {
+    background-color: #0405ff;
+    color: white;
+    border-radius: 10px;
 }
 
 .body-container {
@@ -89,4 +113,14 @@
     flex: 4;
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+.search-form {
+    display: -webkit-flex;
+    display: flex;
+    flex: 2;
+    /*width: 100%;*/
+    border-radius: 32%;
+
+
 }
